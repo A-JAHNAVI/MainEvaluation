@@ -1,4 +1,4 @@
-import { provider as ChakraUIProvider } from "@/components/ui/provider"
+import { Provider as ChakraUIProvider } from "@/components/ui/provider"
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'

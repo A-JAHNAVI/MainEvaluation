@@ -1,6 +1,6 @@
 // src/redux/slices/booksSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { database } from "../../firebase/firebaseConfig";
+import { db } from "../../firebase/firebaseConfig";
 import { ref, get, set, update } from "firebase/database";
 
 export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
